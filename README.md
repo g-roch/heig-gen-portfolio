@@ -9,9 +9,9 @@
 ## Introduction
 
 - Les liens vers les dépôts sont cliquable 
-- Les références de commit sont des liens qui pointe directement sur le bon commit dans l'interface web de `github`/`gitlab`
+- Les références de commit sont des liens qui pointe directement sur le bon commit dans l'interface web de `github`
 
-## `Git` et `github`/`gitlab`
+## `Git` et `github`
 
 Pendant ce semestre, j'ai put voire une grande amélioration dans mon utilisation de `git`. Depuis quelques année déjà, j'utilise régulièrement `git`, pour mes laboratoires et mes projets personnels. J'avais donc déjà une bonne maîtrise de cet outils avant le début du cours de *GEN*, j'en ai donc profité (ainsi que du cours de *RES*) pour amélioré mon utilisation de cet outil.
 
