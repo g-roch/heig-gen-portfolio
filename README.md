@@ -13,7 +13,13 @@
 
 ## `Git` et `github`
 
-Pendant ce semestre, j'ai put voire une grande amélioration dans mon utilisation de `git`. Depuis quelques année déjà, j'utilise régulièrement `git`, pour mes laboratoires et mes projets personnels. J'avais donc déjà une bonne maîtrise de cet outils avant le début du cours de *GEN*, j'en ai donc profité (ainsi que du cours de *RES*) pour amélioré mon utilisation de cet outil.
+`Git ` est un logiciel de gestion de version de fichier texte. Il est également capable de gérer des fichiers binaires, mais ce n'est pas dans ce domaine qu'il excelle. Le gros avantage de `git` est sa rapidité dans les opérations courantes. Par exemples la création d'une branche ne prend que le temps de création d'un fichier sur le disque, c'est très rapide par rapport à d'autre système qui nécessite de copier l'intégralité des fichiers.
+
+De plus la gestion de la fusion des branches est très performante, je n'ai que très rarement du faire un `merge` à la main. Même quand cela arrive, il y a des outils pratiques pour effectuer le `merge` (notamment: [`gitg`](https://wiki.gnome.org/Apps/Gitg/)). La recherche de commit introduisant un bug est facilité par la commande `git bisect` qui nous aide à faire une recherche dichotomique de notre commit à travers notre dépôt de code.
+
+Depuis quelques année déjà, j'utilise régulièrement `git`, pour mes laboratoires et mes projets personnels. J'avais donc déjà une bonne maîtrise de cet outils avant le début du cours de *GEN*, j'en ai donc profité (ainsi que du cours de *RES*) pour amélioré mon utilisation de cet outil.
+
+Cependant, comme n'importe quel logiciel, on n'en a pas forcement une bonne utilisation. J'ai pu voir une grande amélioration dans mon utilisation de `git` durant ce semestre, notamment sur ma manière de nommé mes commits.
 
 ### Utilisation d'avant le cours
 
