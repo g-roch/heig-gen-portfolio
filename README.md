@@ -39,7 +39,22 @@ J'ai put constater le malheur qu'est d'avoir de tel commit lors de la fin du pro
 
 #### Laboratoire
 
+| Nom du dépôt | URL |
+| --- | ---- |
+| Dépôt upstream sur `gitlab`    |[https://gitlab.com/reds-public/pco20_student](https://gitlab.com/reds-public/pco20_student)      |
+| Dépôt personnel sur `github`    | [https://github.com/g-roch/heig-pco-lab](https://github.com/g-roch/heig-pco-lab)     |
 
+J'ai utilisé `git` pour l'ensemble de mes laboratoires ce semestre. J'ai obtenu un bonne expérience dans la gestion d'un dépôt au long cours avec des fusions régulières depuis un autre dépôt. En *PCO* par exemple, la donnée de nos laboratoires nous est fourni dans un dépôt `gitlab`, cependant j'ai choisi avec ma camarade, d'utilisé `github` pour ce laboratoire. J'avais donc quelques manipulation particulière pour récupéré la donnée sur `gitlab` puis de l'envoyer sur `github`, endroit ou nous avions également nos solutions.
+
+Les opérations que je faisais peuvent se résumé comme suit : 
+
+- Effectuer un `fetch` sur le `remote` `gitlab` configurer pour suivre le dépôt du professeur.
+- Effectuer un `pull` pour être évité d'avoir à faire plusieurs `merge` par la suite.
+- Effectuer une fusion de la branche `gitlab/master` sur `master`.
+  - Effectuer la fusion à la main si nécessaire.
+- Faire un `push` sur `origin` (qui corresponds à mon dépôt privé)
+
+J'ai au fil du semestre compris de mieux en mieux la notions de `remote`.
 
 [^1]: Ce projet est bien sur en pause en ce moment au vu des restrictions actuelles sur GAPS.
 [^2]: Nous n'avons malheureusement pas pu mettre en place de test automatiser, ce qui nous aurait sûrement permis d'évité ce bug.
