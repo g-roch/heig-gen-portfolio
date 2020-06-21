@@ -30,9 +30,11 @@ Pour illustré les changements que j'ai apporté à mon utilisation de `git`, je
 | ------------ | ------------------------------------------------------------ |
 | heig-bot     | [https://github.com/HEIG-TS/heig-bot](https://github.com/HEIG-TS/heig-bot) |
 
-Je faisais de temps à autres des commits un peu trop gros ([`b00bd84efcb9c2d0a0ebe0533bfd9cd5af72cc37`](https://github.com/HEIG-TS/heig-bot/commit/b00bd84efcb9c2d0a0ebe0533bfd9cd5af72cc37)), avec des messages pas clair sur l'utilité du commit ([`9349bc1c5aca2fad590e1953ce9c276657764082`](https://github.com/HEIG-TS/heig-bot/commit/9349bc1c5aca2fad590e1953ce9c276657764082)), voir même les deux à la fois ([`c966095fc83db95ac2132f2206e411e4d666cc8e`](https://github.com/HEIG-TS/heig-bot/commit/c966095fc83db95ac2132f2206e411e4d666cc8e))
+Je faisais de temps à autres des commits un peu trop gros ([`b00bd84`](https://github.com/HEIG-TS/heig-bot/commit/b00bd84efcb9c2d0a0ebe0533bfd9cd5af72cc37)), avec des messages pas clair sur l'utilité du commit ([`9349bc1`](https://github.com/HEIG-TS/heig-bot/commit/9349bc1c5aca2fad590e1953ce9c276657764082)), voir même les deux à la fois ([`c966095`](https://github.com/HEIG-TS/heig-bot/commit/c966095fc83db95ac2132f2206e411e4d666cc8e))
 
 J'ai donc mis un accent particulier à faire des commits plus petit et avec un message qui aide vraiment à la compréhension, comme vous pouvez le constater sur mes commit du [7 et 9 mars](https://github.com/HEIG-TS/heig-bot/commits/master).
+
+[^1]: Ce projet est bien sur en pause en ce moment au vu des restrictions actuelles sur GAPS.
 
 ### Utilisation en parallèle de *GEN*
 
@@ -44,9 +46,11 @@ J'ai donc mis un accent particulier à faire des commits plus petit et avec un m
 
 Durant ce projet nous avons essayer de faire de commit de taille raisonnable et avec des commentaires pertinent. Malheureusement, au fur et à mesure de notre avancement, nous avons perdu notre rigueur et nous nous retrouvons avec un projet contenant quelques commits de médiocre qualité.
 
-J'ai put constater le malheur qu'est d'avoir de tel commit lors de la fin du projet. En effet, nous avons constaté qu'un bug avait été introduit, malgré le fait que nous testions presque chaque commit.[^2] J'ai donc utilisé l'excellente commande `git bisect` pour trouver le commit ayant le bug, après être tomber sur plusieurs commits qui ne compilait pas, j'ai identifié le commit intégrant le bug, ([fce9e7ab8a87afdac4432cd229a41d4401dbca09](https://github.com/HEIGVD-PRO-A-07/HEIGVD-PRO-A-07/commit/fce9e7ab8a87afdac4432cd229a41d4401dbca09)) et constaté qu'avec plus de 250 lignes modifiées, cela ne permettait pas d'identifier rapidement la source du problème. J'ai donc appris l'utilité (voir la nécessité) d'avoir de petit commit qui ne modifie qu'une chose à la fois, ce que je n'hésiterais donc plus à imposé à mes partenaire de laboratoire.
+J'ai put constater le malheur qu'est d'avoir de tel commit lors de la fin du projet. En effet, nous avons constaté qu'un bug avait été introduit, malgré le fait que nous testions presque chaque commit.[^2] J'ai donc utilisé l'excellente commande `git bisect` pour trouver le commit ayant le bug, après être tomber sur plusieurs commits qui ne compilait pas, j'ai identifié le commit intégrant le bug, ([`fce9e7a`](https://github.com/HEIGVD-PRO-A-07/HEIGVD-PRO-A-07/commit/fce9e7ab8a87afdac4432cd229a41d4401dbca09)) et constaté qu'avec plus de 250 lignes modifiées, cela ne permettait pas d'identifier rapidement la source du problème. J'ai donc appris l'utilité (voir la nécessité) d'avoir de petit commit qui ne modifie qu'une chose à la fois, ce que je n'hésiterais donc plus à imposé à mes partenaire de laboratoire.
 
 En tant que chef de projet j'ai également du retrouvé qui avait insérer une ligne problématique dans le code source. Pour cela j'ai utilisé la commande `git blame` et le petit utilitaire [`tig`](https://jonas.github.io/tig/).
+
+[^2]: Nous n'avons malheureusement pas pu mettre en place de test automatiser, ce qui nous aurait sûrement permis d'évité ce bug.
 
 #### Laboratoire
 
@@ -67,6 +71,9 @@ Les opérations que je faisais peuvent se résumé comme suit :
 
 J'ai au fil du semestre compris de mieux en mieux la notions de `remote`.
 
-[^1]: Ce projet est bien sur en pause en ce moment au vu des restrictions actuelles sur GAPS.
-[^2]: Nous n'avons malheureusement pas pu mettre en place de test automatiser, ce qui nous aurait sûrement permis d'évité ce bug.
+## Annexes
+
+| Numéro | Nom                 | Nom du fichier                                               |
+| ------ | ------------------- | ------------------------------------------------------------ |
+| 01     | Modélisation de PRO | [`Annexe-01-Modelisation-v1.0.pdf`](https://github.com/g-roch/heig-gen-portfolio/blob/master/Annexe-01-Modelisation-v1.0.pdf) |
 
