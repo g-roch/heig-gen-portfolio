@@ -4,6 +4,13 @@
 
 ***Pseudo `git`***: `g-roch`
 
+***Identités avec lesquels des commits on été faits***: 
+
+- `Gabriel Roch <gabriel.roch@heig-vd.ch>`
+- `Ciol Hcor <ciol@hcor.ch>`
+
+-------
+
 [TOC]
 
 ## Introduction
@@ -82,6 +89,20 @@ Après avoir vraiment vus en détails UML, je comprends vraiment l'utilité d'ut
 Entre autre, à la place des schémas de la première page ([voir annexe 01](https://github.com/g-roch/heig-gen-portfolio/blob/master/Annexe-01-Modelisation-v1.0.pdf)), nous aurions put faire deux schémas de cas d'utilisation avec comme acteur : les élèves, les enseignant, le serveur AD et l'autre partie de l'application. Cela aurait permis en plus d'expliqué plus facilement notre projet, d'être nettement plus au clair entre-nous sur nos objectifs et l’infrastructure à mettre en place.
 
 J'ai également constaté que dans ces deux graphique on a essayer de rassembler les technologie utilisé et l'infrastructure. Ces deux partie aurait gagné à être représentée chacun sur des schémas séparé.
+
+## Test unitaire
+
+| Nom du dépôt               | URL                                                          |
+| -------------------------- | ------------------------------------------------------------ |
+| Laboratoire *POO1* - échec | [https://github.com/g-roch/poo1-lab09](https://github.com/g-roch/poo1-lab09) |
+| *GEN* - TDD                | [https://github.com/GEN-Labs-2020/GEN-L-02](https://github.com/GEN-Labs-2020/GEN-L-02) |
+| *GEN* - Monopoly           | [https://github.com/GEN-Labs-2020/GEN-L-03](https://github.com/GEN-Labs-2020/GEN-L-03) |
+
+### *POO1* laboratoire sur le jeux d'échec
+
+Le premier gros projet que nous avons fait à l'HEIG était le semestre passé en *POO1*, c'était un laboratoire ou nous devions mettre en place les règles du jeux d'échecs. Pour ce laboratoire, mettre en place des tests unitaires aurait été très performant. Nous avions une structure de base relativement rigide à respecter (notamment pour l’interaction avec l'interface graphique fourni), ce qui fait que nous aurions put écrire les testes avant même de mettre en place nos structures de données.
+
+
 
 ## Annexes
 
