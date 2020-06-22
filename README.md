@@ -71,6 +71,18 @@ Les opérations que je faisais peuvent se résumé comme suit :
 
 J'ai au fil du semestre compris de mieux en mieux la notions de `remote`.
 
+## Diagrammes UML
+
+### Durant le projet de semestre (*PRO*)
+
+Dans le cours de *PRO* une des premières étapes est la modélisation du projet. Malheureusement cette étape est arrivé pour nous en même temps que la partie du cours de *GEN* sur les diagrammes UML, nous n'avons donc que très peu appliquer ce qui a été vu en *GEN*.
+
+Après avoir vraiment vus en détails UML, je comprends vraiment l'utilité d'utilisé une nomenclature commune entre tous. Nous avons effectivement eu des difficulté à faire comprendre nos schéma à notre professeur (d'autant plus que cela c'est fait à distance)
+
+Entre autre, à la place des schémas de la première page ([voir annexe 01](https://github.com/g-roch/heig-gen-portfolio/blob/master/Annexe-01-Modelisation-v1.0.pdf)), nous aurions put faire deux schémas de cas d'utilisation avec comme acteur : les élèves, les enseignant, le serveur AD et l'autre partie de l'application. Cela aurait permis en plus d'expliqué plus facilement notre projet, d'être nettement plus au clair entre-nous sur nos objectifs et l’infrastructure à mettre en place.
+
+J'ai également constaté que dans ces deux graphique on a essayer de rassembler les technologie utilisé et l'infrastructure. Ces deux partie aurait gagné à être représentée chacun sur des schémas séparé.
+
 ## Annexes
 
 | Numéro | Nom                 | Nom du fichier                                               |
