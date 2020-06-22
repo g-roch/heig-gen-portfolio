@@ -78,6 +78,14 @@ Les opérations que je faisais peuvent se résumer comme suit :
 
 J'ai au fil du semestre compris de mieux en mieux la notions de `remote`.
 
+#### Portfolio de GEN
+
+| Nom du dépôt | URL                                                          |
+| ------------ | ------------------------------------------------------------ |
+| Portfolio    | [https://github.com/g-roch/heig-gen-portfolio](https://github.com/g-roch/heig-gen-portfolio) |
+
+J'ai également essayé de faire un effort sur les commits pour le portfolio.
+
 ## Diagrammes UML
 
 ### Durant le projet de semestre (*PRO*)
