@@ -90,7 +90,7 @@ Entre autre, à la place des schémas de la première page ([voir annexe 01](htt
 
 J'ai également constaté que dans ces deux graphique on a essayer de rassembler les technologie utilisé et l'infrastructure. Ces deux partie aurait gagné à être représentée chacun sur des schémas séparé.
 
-## Test unitaire
+## Test unitaire & TDD
 
 | Nom du dépôt               | URL                                                          |
 | -------------------------- | ------------------------------------------------------------ |
@@ -98,11 +98,28 @@ J'ai également constaté que dans ces deux graphique on a essayer de rassembler
 | *GEN* - TDD                | [https://github.com/GEN-Labs-2020/GEN-L-02](https://github.com/GEN-Labs-2020/GEN-L-02) |
 | *GEN* - Monopoly           | [https://github.com/GEN-Labs-2020/GEN-L-03](https://github.com/GEN-Labs-2020/GEN-L-03) |
 
+Un test unitaire, c'est un petit bout de code facilement exécutable et qui vérifie le bon fonctionnement d'une fonctionnalité du projet. 
+
 ### *POO1* laboratoire sur le jeux d'échec
 
 Le premier gros projet que nous avons fait à l'HEIG était le semestre passé en *POO1*, c'était un laboratoire ou nous devions mettre en place les règles du jeux d'échecs. Pour ce laboratoire, mettre en place des tests unitaires aurait été très performant. Nous avions une structure de base relativement rigide à respecter (notamment pour l’interaction avec l'interface graphique fourni), ce qui fait que nous aurions put écrire les testes avant même de mettre en place nos structures de données.
 
+### *GEN* laboratoire
 
+Les laboratoire TDD et Monopoly sont les deux premiers laboratoires où nous avons mis en place des tests unitaires automatisé. Ce laboratoire nous a bien permis de voir le fonctionnement des tests unitaires en plus de montrer la manière dont on peut les utilisés lors de développement.
+
+L'avantage du *TDD*, et que l'on n'a pas besoin de réfléchir lorsqu'on écrit le code, mais en amont sur ce que l'on veut que notre code fasse. Cela permet facilement de répartir le développement, car on as tous les mêmes objectifs (faire passer les tests)
+
+Un autre très avantage d'avoir des tests unitaires dans un projet, c'est de vérifier que l'on n'a pas réintroduit un bug par erreur. On peux même automatisé cette tâche grâce à des outils comme [Jenkins](https://alternativeto.net/software/jenkins/about/) ou Travis que nous avons utilisé en *GEN* et *RES*.
+
+## Conclusion
+
+Le cours de GEN, est un cours qui nous apport énormément de méthodologie, chose que l'on peux facilement manqué en entrant à l'HEIG. Notamment dans la gestion de codes source dans `git`, la mise en place de tests unitaires et la réalisation de schéma utilisable et compréhensible par tous. Cependant, je trouve que certaine partie du cours serait bien mieux plus tôt dans notre formation. 
+
+- L'apprentissage de `git` plus tôt dans la formation permettrais une bien meilleur collaboration entre étudiant durant les laboratoires, un positionnement de ce chapitre durant la première année me parais pertinent.
+- La notion de diagramme UML de cas d'utilisation, d'activité, etc. ainsi que du cycle de vie d'un projet serais bien positionner avant PRO. (peut-être décalé PRO vers un autre semestre moins chargé).
+
+J'ai pu également constaté que c'est le premier cours où on ne nous apprends pas des technique informatique en nous disant de nous débrouiller avec, mais un cours ou on nous apprends à collaborer dans notre futur métier.
 
 ## Annexes
 
